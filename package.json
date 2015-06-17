@@ -1,0 +1,36 @@
+{
+  "name": "fs-date-parser",
+  "version": "1.0.0",
+  "description": "Simple library to parse the date from a file-system path. (used for static site generators)",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -c -L"
+  },
+  "keywords": [
+    "date",
+    "parser",
+    "static-site",
+    "tool"
+  ],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.10.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lab": "^5.10.0",
+    "code": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/martinheidegger/fs-date-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinheidegger/fs-date-parser/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/fs-date-parser#readme"
+}

@@ -4,7 +4,9 @@
   "description": "Simple library to parse the date from a file-system path. (used for static site generators)",
   "main": "index.js",
   "scripts": {
-    "test": "lab -c -L"
+    "tap": "tap --reporter=spec --check-coverage test/*.js",
+    "quick": "tap test/*.js",
+    "test": "standard && npm run tap"
   },
   "keywords": [
     "date",
@@ -15,15 +17,11 @@
   "author": "Martin Heidegger <martin.heidegger@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "code": "^1.4.0",
-    "lab": "^5.10.0"
+    "standard": "^6.0.8",
+    "tap": "^5.7.0"
   },
   "directories": {
     "test": "test"
-  },
-  "dependencies": {
-    "lab": "^5.10.0",
-    "code": "^1.4.0"
   },
   "repository": {
     "type": "git",
